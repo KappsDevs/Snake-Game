@@ -1,0 +1,30 @@
+.grid{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    border-style: solid;
+    margin: auto;
+}
+
+.grid div{
+    width: 20px;
+    height: 20px;
+}
+
+.snake{
+    background-color: blue;
+}
+
+.apple{
+    background-color: red;
+}
+
+.title{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    padding: 50px;
+    width: 200px;
+    justify-content: space-around;
+}
